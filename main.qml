@@ -19,6 +19,15 @@ Window {
 //            format: "HH:mm:ss"
 //        }
 
+        MouseArea {
+            anchors.fill: parent
+            drag.target: parent;
+            drag.axis: "XAxis"
+            drag.minimumX: 30
+            drag.maximumX: 150
+            drag.filterChildren: true
+        }
+
         ValueAxis {
             id: axisX
             min: 0
