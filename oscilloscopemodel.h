@@ -5,7 +5,7 @@
 
 class OscilloscopeModel: public QAbstractTableModel {
     Q_OBJECT
-    static const int TIMER_ADD_POINT = 5;
+    static const int TIMER_ADD_POINT = 1;
     static const QString ITEM_NAME;     // OscilloscopeModel
     static const bool IS_QML_REG;
 public:
